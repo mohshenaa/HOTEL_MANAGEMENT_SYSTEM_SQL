@@ -34,7 +34,7 @@ The core entities include:
 To deploy this database on **SQL Server 2022**:
 
 1. Install or open **Microsoft SQL Server Management Studio (SSMS)**.
-2. Create a new database (e.g., `HotelManagementDB`).
+2. Create a new database (just run the ddl it will automaticly create if available it will be deleted 1st).
 3. Run the script: `DDL statement.sql` to create tables and constraints.
 4. Run the script: `DML statement.sql` to insert sample records.
 5. Explore and query the data in SSMS!
